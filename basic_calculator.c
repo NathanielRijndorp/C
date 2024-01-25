@@ -44,8 +44,7 @@ int main() {
                 total = var1 * var2;
                 printf("The product of %f and %f is %f ", var1, var2, total);
                 break;
-            case 4: 
-                break;
+            case 4:
                 printf("Val 1: "); 
                 scanf("%f", &var1);
 
@@ -54,6 +53,7 @@ int main() {
 
                 total = var1 / var2;
                 printf("The quotient of %f and %f is %f ", var1, var2, total);
+                break;
             default: 
                 printf("Please select a proper number.\n");
         }
