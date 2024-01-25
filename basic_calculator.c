@@ -45,6 +45,7 @@ int main() {
                 printf("The product of %f and %f is %f ", var1, var2, total);
                 break;
             case 4: 
+                break;
                 printf("Val 1: "); 
                 scanf("%f", &var1);
 
